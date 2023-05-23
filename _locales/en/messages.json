@@ -1,0 +1,11 @@
+{
+    "appDesc": {
+        "message": "Powered by ChatGPT, offers contextual interactive chatting on top of a summary, with translation and continue buttons."
+    },
+    "summaryPrompt": {
+        "message": "Summarize the text below, retaining key points and important details while briefly."
+    },
+    "continuePrompt": {
+        "message": "Please continue the last response"
+    }
+}
