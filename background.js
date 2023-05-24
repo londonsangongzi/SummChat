@@ -555,11 +555,13 @@
                 response = await fetch(url); 
             }
             else {
+                lastTokenTime = null;
                 throw new Error('UNAUTHORIZED');
             }
         }
         const data = await response.json().catch(() => ({}));
         if (!data.accessToken) {
+            lastTokenTime = null;
             throw new Error('UNAUTHORIZED');
         }
         console.log("重新获取AccessToken");
@@ -597,6 +599,7 @@
                     } else {
                         if (windowId === veriwindow.id) {
                             console.log(`Verification window ${windowId} closed by the user before completion!`);
+                            lastTokenTime = null;
                             reject(new Error('UNAUTHORIZED'));
                         }
                     }
