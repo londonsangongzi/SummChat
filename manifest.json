@@ -12,18 +12,6 @@
     },
     "action": {},
     "options_page": "options.html",
-    "content_scripts": [
-        {
-            "matches": [
-                "https://*/*",
-                "http://*/*"
-            ],
-            "css": [
-                "content.css",
-                "content_main.css"
-            ]
-        }
-    ],
     "web_accessible_resources": [
         {
             "resources": [
