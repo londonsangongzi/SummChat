@@ -870,16 +870,18 @@
         });
     });
     function listenCtrlHover(tabId) {
+        /* need "host_permissions": ["<all_urls>"]
         chrome.scripting.executeScript({
             target: { tabId: tabId },
             func: () => {
                 let hoveredLink = null;
                 let isCtrlKeyDown = true;
+                
                 function onMouseOver(e) {
                     if (e.target.tagName === 'A') {
                         hoveredLink = e.target.href;
                     }
-                }
+                }               
                 function onMouseOut(e) {
                     if (e.target.tagName === 'A') {
                         hoveredLink = null;
@@ -899,6 +901,7 @@
                         isCtrlKeyDown = true;
                     }
                 }
+                
                 if (!window.isListenerAdded) {
                     document.addEventListener('mouseover', onMouseOver);
                     document.addEventListener('mouseout', onMouseOut);
@@ -913,13 +916,13 @@
         }).then(() => { 
         }).catch((error) => {
             console.log(error);
-        });
+        });*/
     }
     chrome.tabs.onActivated.addListener(function (activeInfo) {
         chrome.tabs.get(activeInfo.tabId, function (tab) {
             if (tab.status === 'complete') { 
                 conversationstate.setCurrentTab(tab.id);
-                listenCtrlHover(tab.id);
+                //listenCtrlHover(tab.id);
             }
         });
     });
@@ -927,7 +930,7 @@
         if (tab.active && tab.status === 'complete') {
             if (tab.url && /^http(s)?:\/\//.test(tab.url)) { 
                 conversationstate.updateCurrentTab(tab.id); 
-                listenCtrlHover(tab.id);
+                //listenCtrlHover(tab.id);
             }
         }
     });

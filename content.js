@@ -2162,12 +2162,13 @@ if (typeof myApp_SummChat === 'undefined') {
         `;
         }
     }
+    /*
     class ConfigB {
         constructor() {
             this.contentType = 'B';
             this.portName = PORT_SUMMARY;
         }
-    }
+    }*/
     class ContentMain extends ContentBase {
         constructor() {
             super(new ConfigMain());
