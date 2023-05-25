@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "SummChat",
+    "name": "__MSG_appName__",
     "description": "__MSG_appDesc__",
     "default_locale": "en",
     "version": "0.0.1",
