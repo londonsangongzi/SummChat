@@ -4,6 +4,10 @@
 
 **SummChat** is a powerful chrome extension that enhances your browsing experience by providing summarized insights and facilitating interactive conversations about the web content. With this extension, you can delve deep into the essence of web pages using **ChatGPT**, engage in dialogue, and gain a comprehensive understanding of the material. Additionally, it offers translation capabilities and quick access buttons to bridge language barriers and seamlessly continue conversations.
 
+<p align="middle">
+<img src="https://github.com/londonsangongzi/SummChat/assets/50372784/32af694c-bba3-4443-a31a-63ea25782fc3" style="width:45%;">&nbsp; &nbsp; &nbsp; &nbsp;<img src="https://github.com/londonsangongzi/SummChat/assets/50372784/254f4d3d-dde7-40f6-8fb5-e6b72bd27564" style="width:45%;">
+</p>
+  
 Features:
 
 1. **Context-Aware Dialogue**: This extension retains previous information, ensuring seamless conversations without losing context. You can have meaningful exchanges and build upon previous interactions effortlessly.
@@ -21,6 +25,10 @@ Install SummChat to unlock the power of chat-based summarization, translation, a
 ---
 
 **SummChat**在总结网页摘要基础上，使用**ChatGPT**，进行互动对话，帮助读者深度了解网页内容。此外，还提供翻译和继续对话快捷功能，使读者跨越语言界限，方便的让对话持续。
+
+<p align="middle">
+<img src="https://github.com/londonsangongzi/SummChat/assets/50372784/5979f544-693f-4077-8788-4c2bac0e6468" style="width:45%;">&nbsp; &nbsp; &nbsp; &nbsp;<img src="https://github.com/londonsangongzi/SummChat/assets/50372784/7f94dfe6-1734-4e84-8ec8-a6c02c6e32b1" style="width:45%;">
+</p>
 
 特性：
 
