@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://github.com/londonsangongzi/SummChat/assets/50372784/cdb8183e-f5aa-4a13-adc9-f8534fd9fbb1" style="display: block; margin: 0 auto; width: 70%; height: auto;">
+</p>  
+
 **SummChat** is a powerful chrome extension that enhances your browsing experience by providing summarized insights and facilitating interactive conversations about the web content. With this extension, you can delve deep into the essence of web pages using **ChatGPT**, engage in dialogue, and gain a comprehensive understanding of the material. Additionally, it offers translation capabilities and quick access buttons to bridge language barriers and seamlessly continue conversations.
 
 Features:
