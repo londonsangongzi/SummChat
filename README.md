@@ -32,6 +32,10 @@ Once logged in to ChatGPT, the plugin retrieves an access token to complete the 
 
 **Note**: ChatGPT may require users to log in again after a certain period of time. However, users only need to log in once to continue using the plugin without further authentication. Once users log in again, they can enjoy uninterrupted access to ChatGPT without the need for repeated logins during that timeframe.
 
+# Installation
+
+[chrome web store](https://chrome.google.com/webstore/detail/summchat-summary-to-chat/dlhmjmpcjgflffkbniejcgekabgefahj)
+
 ---
 
 **SummChat**在总结网页摘要基础上，使用**ChatGPT**，进行互动对话，帮助读者深度了解网页内容。此外，还提供翻译和继续对话快捷功能，使读者跨越语言界限，方便的让对话持续。
@@ -59,3 +63,7 @@ Once logged in to ChatGPT, the plugin retrieves an access token to complete the 
 一旦用户登录ChatGPT，插件将获取一个访问令牌来完成验证过程，允许用户无需重复输入用户名和密码来访问ChatGPT。
 
 **注意**：ChatGPT可能会要求用户在一定时间后重新登录。用户只需登录一次即可继续使用插件，无需进一步进行身份验证。一旦用户重新登录，就可以在一定时间段内无需重复登录而连续访问ChatGPT。
+
+# 安装
+
+[chrome 应用商店](https://chrome.google.com/webstore/detail/summchat-summary-to-chat/dlhmjmpcjgflffkbniejcgekabgefahj?hl=zh-CN)
